@@ -2,4 +2,5 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: http://localhost:8848
+        server-addr: http://192.168.56.10:8848
+        namespace: f0ed8ed4-5d02-4e51-9017-a9f10cd686e9

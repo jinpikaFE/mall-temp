@@ -3,6 +3,8 @@ spring:
     nacos:
       discovery:
         server-addr: http://nacos-registry:8848
+        namespace: f0ed8ed4-5d02-4e51-9017-a9f10cd686e9
       config:
         server-addr: http://nacos-registry:8848
         file-extension: yaml
+        namespace: f0ed8ed4-5d02-4e51-9017-a9f10cd686e9
